@@ -1,0 +1,22 @@
+/* For WELCOME TO */
+.welcome-text {
+  font-family: 'Koulen', cursive;
+  font-size: 2.5rem; /* Bigger size */
+  margin-top: 10px; /* Slightly down */
+}
+
+/* For the quote */
+.quote-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  margin-top: -10px; /* Move quote up a bit */
+}
+
+/* For small picture on big logo */
+.small-pic {
+  top: 10px;
+  right: 10px;
+  width: 80px;
+  height: auto;
+}
+
