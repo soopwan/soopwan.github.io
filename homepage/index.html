@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <!-- Koulen for WELCOME TO -->
+  <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+ <!-- Koulen for WELCOME TO -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Slab&display=swap" rel="stylesheet" />
@@ -15,6 +16,18 @@
 </head>
 
 <body>
+  <nav id="mainNav" style="background-color: #0000FF; padding: 10px; font-family: 'Kristi', cursive;">
+    <a href="index.html" style="color: antiquewhite; margin-right: 20px; text-decoration: none;">Home</a>
+    <a href="business.html" style="color: antiquewhite; text-decoration: none;">Business Page</a>
+  </nav>
+  <button onclick="toggleNav()" style="margin: 10px;">^</button>
+
+
+
+
+
+
+
   <div class="container">
     <div class="d-flex justify-content-between align-items-center mt-3">
       <div class="welcome-text">WELCOME TO</div>
@@ -41,6 +54,16 @@
   </div>
 
   <script src="script.js"></script>
+  <script>
+    function toggleNav() {
+      var nav = document.getElementById("mainNav");
+      if (nav.style.display === "none") {
+        nav.style.display = "block";
+      } else {
+        nav.style.display = "none";
+      }
+    }
+  </script>
 </body>
 
 </html>
