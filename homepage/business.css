@@ -1,0 +1,49 @@
+/* === Container that holds the text and all images === */
+.text-container {
+  position: relative;
+  max-width: 400px;
+  margin-top: -30px; 
+}
+
+/* === Heading (VINTAGE VAULT) === */
+.vintage-vault {
+  font-family: 'Koulen', cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #000080; /* Dark blue */
+  text-transform: uppercase;
+  position: relative;
+  top: -10px; 
+}
+
+/* === Paragraph text === */
+.text-container p {
+  font-family: 'Kodchasan', sans-serif;
+  color: black;
+  margin-top: 0;
+}
+
+.img1 {
+  position: absolute;
+  width: 180px;
+  bottom: -170px; 
+  left: 30px;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  width: 140px;
+  top: 0;
+  right: -140px;
+  z-index: 1;
+}
+
+/* === Clothes image */
+.img3 {
+  position: absolute;
+  width: 270px;       
+  bottom: -200px;     
+  left: 260px;        
+  z-index: 1;  
+}
